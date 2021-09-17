@@ -1,0 +1,12 @@
+{
+    "code-runner.executorMap": {
+        "javascript": "node",
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "python": "python -u",
+        "powershell": "powershell -ExecutionPolicy ByPass -File",
+        "bat": "cmd /c",
+        "shellscript": "bash",
+        "typescript": "ts-node",
+        "rust": "cd $dir && cargo run",
+    }
+}
